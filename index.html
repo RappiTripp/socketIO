@@ -12,7 +12,7 @@
    socket.emit('new message', username);
   
    socket.on('send message', (data) => {
-	window.AppInventor.setWebViewString("" +  data.message);
+	window.Niotron.setWebViewString("" +  data.message);
     });  
         }
 </script>
